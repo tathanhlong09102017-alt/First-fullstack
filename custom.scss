@@ -1,0 +1,129 @@
+ /* cho thụt vào lề */
+ body {
+     margin: 0 !important;
+     padding: 0 !important;
+ }
+
+ .red {
+     border: 1px solid red;
+ }
+
+ .green {
+     border: 1px solid green;
+ }
+
+ /*chèn ảnh */
+ .banner {
+     border: 1px solid black;
+     height: 865px;
+     width: 1905px;
+     background: url(./banner.jpg) center center no-repeat;
+
+     .about-signIn {
+
+         height: 80px;
+         width: 90%;
+         display: flex;
+         justify-content: flex-end;
+         /* đẩy về bên phải */
+         align-items: center;
+         gap: 20px;
+         /*  khoảng cách giữa các chữ */
+         padding: 50px;
+         /*khoảng cách bên trong */
+     }
+
+     .logo {
+         height: 100px;
+         width: 1140px;
+         margin: auto;
+         /* căn giữa logo */
+         background: url(./hapologo.png) center center no-repeat;
+         background-size: contain;
+         /* giữ tỉ lệ ảnh */
+     }
+
+     .about,
+     .signIn {
+         text-decoration: none;
+         /* bỏ gạch chân */
+         text-transform: uppercase;
+         /* chữ in hoa */
+         font-weight: bold;
+         /* chữ đậm */
+     }
+
+     .about,
+     .signIn {
+         color: rgb(211, 70, 105);
+         border: 2px solid rgb(211, 70, 105);
+         padding: 10px 20px;
+         /*khoản cách bên ngoài chữ với viền */
+         border-radius: 20px;
+         /* bo tròn viền */
+     }
+
+     .text {
+         text-align: center;
+         font-style: italic;
+         font-size: 18px;
+         margin-top: 50px;
+     }
+
+     .btnStartNow {
+         text-align: center;
+         margin-top: 30px;
+
+         button {
+             color: #940e0e;
+             text-transform: uppercase;
+             /* chữ in hoa */
+             font-weight: bold;
+             /* chữ đậm */
+             padding: 13px 20px;
+             /*khoản cách bên ngoài chữ với viền (dọc và ngang */
+             border: 1px solid #940e0e;
+             border-radius: 20px;
+             /* bo tròn viền */
+             cursor: pointer;
+             /* con trỏ có hình bàn tay */
+         }
+     }
+
+     .contentCenter {
+
+         .left,
+         .center,
+         .right {
+             width: 33%;
+             /* chia đều 3 phần mỗi phần 33% */
+             display: inline-block;
+             /* cho các phần nằm ngang hàng */
+             text-align: center;
+             /* căn giữa chữ */
+             margin-top: 30px;
+         }
+
+         span {
+             font-weight: bold;
+             font: size 30px;
+             display: block;
+             /* cho chữ xuống dòng */
+             /* chữ đậm */
+         }
+
+         img {
+             width: 50px;
+             height: 50px;
+         }
+     }
+
+     .text span
+
+     /*chỉ áp dụng cho span trong class text */
+         {
+         color: red
+     }
+ }
+
+ /*chèn ảnh */
